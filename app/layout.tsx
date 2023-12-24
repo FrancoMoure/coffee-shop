@@ -3,11 +3,11 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 
 import Navbar from  "@/components/main/Navbar"
-import Footer from  "@/components/main/Navbar"
+import Footer from  "@/components/main/Footer"  // Corregir aquí
 
 const inter = Inter({subsets: ['latin']})
 
-export const matadata: Metadata = {
+export const metadata: Metadata = {  // Corregir aquí
   title: 'Coffee Shop',
   description: 'Coffee Shop',
 }
@@ -28,4 +28,3 @@ export default function RootLayout({
     </html>
   )
 }
-
