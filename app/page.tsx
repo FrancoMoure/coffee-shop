@@ -2,7 +2,6 @@
 import Hero from "@/components/main/Hero";
 import Shops from "@/components/main/Shops";
 import Coffee from "@/components/main/Coffee";
-import Footer from "@/components/main/Footer";
 import SecondHero from "@/components/main/SecondHero";
 
 
@@ -14,7 +13,7 @@ export default function Home(){
         <Coffee/>
         <SecondHero/>
         <Shops/>
-        <Footer/>  
+         
       </div>
     </main>
   )
