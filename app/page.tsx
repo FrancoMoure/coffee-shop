@@ -13,7 +13,6 @@ export default function Home(){
         <Coffee/>
         <SecondHero/>
         <Shops/>
-         
       </div>
     </main>
   )
